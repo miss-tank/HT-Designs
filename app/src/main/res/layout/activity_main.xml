@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#181616"
+        tools:context="com.example.android.htdesigns.MainActivity" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/h1"
+        android:id="@+id/image1"
+        android:layout_marginBottom="250dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HT Designs"
+        android:textStyle="bold"
+        android:id="@+id/htd"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="300dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="160sp"
+        android:textColor="#701415"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi i am Harshad S Tank, 25 from India. Done schooling at Indian Education Society, college at Thakur College for Sci and Commerce, currently transportation design at Istituto Europeo di Design (Turin, Italy) (Bach), Istituto Europeo di Design (Turin, Italy) (Masters)."
+        android:layout_below="@+id/htd"
+        android:id="@+id/htdesc"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/htdesc"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/licon"
+        android:src="@drawable/ic_add_location_white_24dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mumbai,India"
+        android:layout_below="@+id/htdesc"
+        android:id="@+id/loc"
+        android:layout_marginTop="30sp"
+        android:layout_toRightOf="@+id/licon"
+        android:textSize="20dp"
+        android:layout_marginLeft="15sp"
+        android:textColor="#9f0709"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact    +91 00-000-00000"
+        android:layout_below="@+id/licon"
+        android:id="@+id/contact"
+        android:layout_marginTop="5sp"
+        android:layout_toRightOf="@+id/licon"
+        android:textSize="20dp"
+        android:layout_marginLeft="-20dp"
+        android:textColor="#a4a2a2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portfolio "
+        android:layout_below="@+id/contact"
+        android:id="@+id/portfolio"
+        android:layout_marginTop="5sp"
+        android:layout_toRightOf="@+id/licon"
+        android:textSize="20dp"
+        android:layout_marginLeft="-20dp"
+        android:textColor="#9f0709"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:layout_below="@+id/contact"
+        android:id="@+id/portfoliolink"
+        android:layout_marginTop="5sp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/portfolio"
+        android:text="htdesigns.in"
+        android:layout_marginLeft="10dp"
+        android:textColorLink="#9f0709"
+        android:linksClickable="true"
+        />
+
+
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:layout_below="@+id/portfoliolink"
+        android:text="Go to Portfolio"
+        android:textColor="#a4a2a2"
+        android:autoLink="web"
+        android:onClick="onClick"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        />
+
+</RelativeLayout>
+
